@@ -8,49 +8,49 @@
     "forward",
     "bot"
   ],
-  "repository": "https://github.com/Greymattersbot/public-forward-bot",
+  "repository": "https://github.com/rubankarthick/forwardbot",
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org or @UseTGXBot",
-      "value": ""
+      "value": "22642704"
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org or @UseTGXBot",
-      "value": ""
+      "value": "878698447412869d1b30bf929f32e86f"
     },
     "BOT_TOKEN": {
       "description": "Your bot token from @BotFather",
-      "value": ""
+      "value": "6455662070:AAGF_IDkQcob3M4mgsVlJfOxMlyMRR8Ft8c"
     },
     "BOT_USERNAME": {
       "description": "Username of your Bot without @ , Only give if you want auto starts forwarding when heroku restarts",
-      "value": "",
+      "value": "daenerysfiles2bot",
       "required": false
     },
     "TO_CHANNEL": {
       "description": "Enter Your channel Id must add Eg:- -100xxxxxxxxx",
-      "value": ""
+      "value": "-1001919688359"
     },
     "DATABASE_URI": {
       "description": "Get this from cloud.mongodb.com",
-      "value": ""
+      "value": "mongodb+srv://RUBAN9124:karthi9124@forwardbot.aw7g7aq.mongodb.net/?retryWrites=true&w=majority"
     },
     "DATABASE_NAME": {
       "description": "Database cluster name",
-      "value": "Cluster0"
+      "value": "FORWARDBOT"
     },
     "COLLECTION_NAME": {
       "description": "Database Collection Name",
-      "value": "Forward_data",
+      "value": "FORWARDBOT",
       "required": false
     },
     "OWNER_ID": {
       "description": "Enter Your Telegram id",
-      "value": ""
+      "value": "1032438381"
     },
     "SESSION": {
       "description": "Pyrogram string Session https://t.me/string_session_generator_658_bot",
-      "value": ""
+      "value": "BQFZgBAAc5JIVtAae4ciaj2eAUaHCu05Fby2OBSKX-UtPdk_xz7gFc2m03qxt0SNtv3stcdsv623arY5xD80eK7oBy_AHUCM6uOJ-HK3xs7U-mgM-PK9ua_oriCpVnybLaQxxvhnMT0WZU3ddqe7T6LQagBpCrdz794x9HSk2l5-L6TNVgLzUCrmrpGqKt9o_cY5k_3Lu4ii-Q1fhJkD2bEUZVVf5kcceIBuwNIcXAdODYqLNJMonnlKNNFBlmAhVRSlcYfBGuWUKgS3jEyEEVlBpB_nTbCOqBF0ijEsPLdLgwV403ZgS8oHLEtKhjsRdEbVKOMtjSJ7H-rTNt97OCN-DhkYTQAAAAA9icJtAA"
     }
   },
   "formation": {
